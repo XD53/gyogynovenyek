@@ -1,28 +1,97 @@
 body {
-width: 80%;
-margin:auto;
-background-color: rgb(255, 255, 221);
-background-image: url(kepek/fohatter.png);
-background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 255, 221);
+    background-image: url(kepek/fohatter.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
 }
+
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     text-transform: uppercase;
-    border: 5px solid black;
+    border: 5px dashed black;
     border-radius: 30px;
     text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    }
+    nav{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    article{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img{
+        width: 100%
+    }
+
+
+nav {
+    gap: 15px;
+    background-image: url(./kepek/fohatter.png);
+    background-size: 90%;
+    background-color: rgb(189, 224, 252);
+    border: 3px solid rgb(169, 250, 250);
+    padding: 60px;
+    border-radius: 80px;
+    margin-top: 40px;
 }
-nav{
-    display:grid;
+
+nav a {
+    background-color: rgb(252, 156, 226);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin: 0px;
+    width: 100px;
+    margin:auto;
+
+}
+
+.tarolo {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    background-image: url(./kepek/fohatter.png);
+    background-color: rgb(189, 224, 252);
+    padding: 50px;
+    background-size: 100%;
+    border-radius: 10vw;
+    border: 3px solid rgb(169, 250, 250);
+    gap: 30px;
+    margin: 30px;
+}
+.tarolo div {
+    background-image: url(./kepek/divhatter.png);
+    border-radius: 15vh;
+    padding: 50px;
+    background-size: 100%;
+    text-align: center;
 
 }
 
-article{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+#Kamilla {
+    background-color: whitesmoke;
+    border: 3px solid wheat;
 }
-
-img{
-    width: 100%
+#Gyomber{
+    background-color:yellow;
+    border: 3px solid goldenrod;
+}
+#Levendula {
+    background-color: plum;
+    border: 3px solid darkorchid;
+}
+#Csalan {
+    background-color: mediumspringgreen;
+    border: 3px solid lightseagreen;
 }
